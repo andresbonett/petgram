@@ -1,12 +1,19 @@
 {
-  "name": "react-avanzado",
-  "version": "1.0.0",
-  "description": "¡Sígueme en Youtube! https://www.youtube.com/midudev",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Andres Bonett <andresbonettm@gmail.com>",
-  "license": "MIT"
+    "name": "react-avanzado",
+    "version": "1.0.0",
+    "description": "¡Sígueme en Youtube! https://www.youtube.com/midudev",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "dev": "webpack-dev-server"
+    },
+    "keywords": [],
+    "author": "Andres Bonett <andresbonettm@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "html-webpack-plugin": "^4.4.1",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    }
 }
